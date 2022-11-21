@@ -10,11 +10,11 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/profile" element={<Profile />} />
-        <Route path="/works" element={<Works />} />
-        <Route path="/galley" element={<Galley />} />
-        <Route path="/blog" element={<Blog />} />
+        <Route path="/tortilla-site/" element={<Home />} />
+        <Route path="/tortilla-site/profile" element={<Profile />} />
+        <Route path="/tortilla-site/works" element={<Works />} />
+        <Route path="/tortilla-site/galley" element={<Galley />} />
+        <Route path="/tortilla-site/blog" element={<Blog />} />
       </Routes>
     </BrowserRouter>
   );
