@@ -1,0 +1,91 @@
+// @use "../style/Responsive" as mixin;
+$tablet: 960px;
+$sp: 520px;
+
+// html {
+//   height: 100%;
+// }
+// body {
+//   height: 100%;
+// }
+
+.wrapper {
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  // min-height: 100vh;
+  // @media screen and (max-width: $tablet) {
+  //   padding: 50px;
+  // }
+  // @media screen and (max-width: $sp) {
+  //   padding: 10px;
+  // }
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+
+.image_container {
+  margin: 0 auto;
+  width: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img {
+    width: 100%;
+    z-index: 1;
+    opacity: 0.8;
+    animation: fadeIn 5s ease 0s 1 normal;
+    -webkit-animation: fadeIn 5s ease 0s 1 normal;
+
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      40% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 0.8;
+      }
+    }
+  }
+}
+
+.menu {
+  position: absolute;
+  top: 50%;
+  left: 6%;
+  z-index: 2;
+  h2 {
+    font-size: 3rem;
+    margin: 20px;
+  }
+  ul {
+    list-style-type: none;
+    line-height: 20px;
+    li {
+      a,
+      a:visited,
+      a:hover,
+      a:active {
+        // color: #f2d9d9;
+        color: white;
+      }
+      .text {
+        font-weight: bolder;
+      }
+    }
+  }
+}

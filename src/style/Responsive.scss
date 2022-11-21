@@ -1,0 +1,11 @@
+$tablet: 960px;
+$sp: 520px;
+
+@mixin tablet {
+  @media screen and (max-width: $tablet) {
+  }
+}
+@mixin sp {
+  @media screen and (max-width: $sp) {
+  }
+}
