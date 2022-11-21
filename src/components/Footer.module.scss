@@ -1,3 +1,6 @@
+$tablet: 960px;
+$sp: 520px;
+
 .wrapper {
   display: flex;
   width: 100%;
@@ -7,4 +10,10 @@
   // margin-top: auto;
   position: absolute;
   bottom: 0;
+  @media screen and (max-width: $tablet) {
+    font-size: 1.2rem;
+  }
+  @media screen and (max-width: $sp) {
+    font-size: 1rem;
+  }
 }

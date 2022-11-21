@@ -1,5 +1,24 @@
+$tablet: 960px;
+$sp: 520px;
+
 .wrapper {
   padding-top: 100px;
   padding-left: 100px;
   padding-right: 100px;
+  @media screen and (max-width: $tablet) {
+    padding-top: 1rem;
+    padding-left: 2.5rem;
+  }
+  @media screen and (max-width: $sp) {
+    padding-top: 0;
+    padding-left: 2rem;
+  }
+  h1 {
+    @media screen and (max-width: $tablet) {
+      font-size: 2rem;
+    }
+    @media screen and (max-width: $sp) {
+      font-size: 1.7rem;
+    }
+  }
 }

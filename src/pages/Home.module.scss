@@ -34,6 +34,12 @@ header {
   justify-content: center;
   align-items: center;
   padding: 100px;
+  @media screen and (max-width: $tablet) {
+    padding: 0;
+  }
+  @media screen and (max-width: $sp) {
+    padding: 0;
+  }
 }
 
 .image_container {
@@ -46,6 +52,7 @@ header {
     width: 100%;
     z-index: 1;
     opacity: 0.8;
+    object-fit: cover;
     animation: fadeIn 5s ease 0s 1 normal;
     -webkit-animation: fadeIn 5s ease 0s 1 normal;
 
@@ -53,12 +60,18 @@ header {
       0% {
         opacity: 0;
       }
-      40% {
+      60% {
         opacity: 0;
       }
       100% {
         opacity: 0.8;
       }
+    }
+    @media screen and (max-width: $tablet) {
+      height: calc(100vh - 35rem);
+    }
+    @media screen and (max-width: $sp) {
+      height: calc(100vh - 25rem);
     }
   }
 }
@@ -68,14 +81,43 @@ header {
   top: 50%;
   left: 6%;
   z-index: 2;
+  @media screen and (max-width: $tablet) {
+  }
+  @media screen and (max-width: $sp) {
+    top: 60%;
+    width: 20rem;
+  }
   h2 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     margin: 20px;
+    @media screen and (max-width: $tablet) {
+      width: 31rem;
+      font-size: 2.5rem;
+      margin: 5px;
+    }
+    @media screen and (max-width: $sp) {
+      width: 15rem;
+      font-size: 1.5rem;
+      margin: 5px;
+    }
   }
   ul {
     list-style-type: none;
     line-height: 20px;
+    @media screen and (max-width: $tablet) {
+      line-height: 15px;
+    }
+    @media screen and (max-width: $sp) {
+      line-height: 1.2rem;
+    }
     li {
+      font-size: 2.3rem;
+      @media screen and (max-width: $tablet) {
+        font-size: 2rem;
+      }
+      @media screen and (max-width: $sp) {
+        font-size: 1.3rem;
+      }
       a,
       a:visited,
       a:hover,

@@ -24,9 +24,9 @@ export const Home = () => {
       <div className={style.container}>
         <div className={style.menu}>
           <TypeAnimation
-            sequence={["Hello!! Welcome to tortilla site :)", 1000]}
+            sequence={["Hello!! ", 1000, "Hello!! Welcome to tortilla site :)"]}
             wrapper="h2"
-            repeat={Infinity}
+            repeat={0}
             speed={50}
             deletionSpeed={1}
             cursor={false}
@@ -49,7 +49,6 @@ export const Home = () => {
                     "profile",
                     4000,
                   ]}
-                  style={{ fontSize: "2em" }}
                   wrapper="p"
                   repeat={Infinity}
                   speed={1}
@@ -76,7 +75,6 @@ export const Home = () => {
                     "works",
                     5000,
                   ]}
-                  style={{ fontSize: "2em" }}
                   wrapper="p"
                   repeat={Infinity}
                   speed={1}
@@ -102,7 +100,6 @@ export const Home = () => {
                     "galley",
                     6000,
                   ]}
-                  style={{ fontSize: "2em" }}
                   wrapper="p"
                   repeat={Infinity}
                   speed={1}
@@ -126,7 +123,6 @@ export const Home = () => {
                     "blog",
                     4000,
                   ]}
-                  style={{ fontSize: "2em" }}
                   wrapper="p"
                   repeat={Infinity}
                   speed={1}
