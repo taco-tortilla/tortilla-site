@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import BgImage from "../images/bg_water.jpg";
 
 // components
@@ -11,6 +10,7 @@ import { Grid } from "@mui/material";
 
 // Libraries
 import { TypeAnimation } from "react-type-animation";
+import { Link } from "react-router-dom";
 
 // style
 import style from "./Home.module.scss";
@@ -24,7 +24,12 @@ export const Home = () => {
       <div className={style.container}>
         <div className={style.menu}>
           <TypeAnimation
-            sequence={["Hello!! ", 1000, "Hello!! Welcome to tortilla site :)"]}
+            sequence={[
+              1000,
+              "Hello!! ",
+              1000,
+              "Hello!! Welcome to tortilla site :)",
+            ]}
             wrapper="h2"
             repeat={0}
             speed={50}
@@ -39,7 +44,7 @@ export const Home = () => {
               >
                 <TypeAnimation
                   sequence={[
-                    2500,
+                    3500,
                     "PROFILE",
                     4000,
                     "pRoFiLe",
@@ -65,7 +70,7 @@ export const Home = () => {
                 {" "}
                 <TypeAnimation
                   sequence={[
-                    3000,
+                    4000,
                     "WORKS",
                     5000,
                     "wOrKs",
@@ -90,7 +95,7 @@ export const Home = () => {
               >
                 <TypeAnimation
                   sequence={[
-                    3500,
+                    4500,
                     "GALLEY",
                     6000,
                     "gAlLeY",
@@ -113,7 +118,7 @@ export const Home = () => {
                 {" "}
                 <TypeAnimation
                   sequence={[
-                    4000,
+                    5000,
                     "BLOG",
                     4000,
                     "bLoG",

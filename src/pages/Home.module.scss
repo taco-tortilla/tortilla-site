@@ -1,26 +1,22 @@
-// @use "../style/Responsive" as mixin;
 $tablet: 960px;
 $sp: 520px;
-
-// html {
-//   height: 100%;
-// }
-// body {
-//   height: 100%;
-// }
 
 .wrapper {
   height: 100%;
   display: flex;
   flex-flow: column;
   justify-content: center;
-  // min-height: 100vh;
-  // @media screen and (max-width: $tablet) {
-  //   padding: 50px;
-  // }
-  // @media screen and (max-width: $sp) {
-  //   padding: 10px;
-  // }
+  overflow: hidden;
+  animation: fadeIn 1s ease-in-out 0s 1 normal;
+  -webkit-animation: fadeIn 1s ease-in-out 0s 1 normal;
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
 }
 
 header {
@@ -52,15 +48,22 @@ header {
     width: 100%;
     z-index: 1;
     opacity: 0.8;
+    pointer-events: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-touch-callout: none;
+    -moz-user-select: none;
+    // touch-callout: none;
+    user-select: none;
     object-fit: cover;
-    animation: fadeIn 5s ease 0s 1 normal;
-    -webkit-animation: fadeIn 5s ease 0s 1 normal;
+    animation: fadeIn 5s ease-in 0s 1 normal;
+    -webkit-animation: fadeIn 5s ease-in 0s 1 normal;
 
     @keyframes fadeIn {
       0% {
         opacity: 0;
       }
-      60% {
+      70% {
         opacity: 0;
       }
       100% {
@@ -109,9 +112,11 @@ header {
     }
     @media screen and (max-width: $sp) {
       line-height: 1.2rem;
+      padding: 1rem;
     }
     li {
       font-size: 2.3rem;
+      width: fit-content;
       @media screen and (max-width: $tablet) {
         font-size: 2rem;
       }

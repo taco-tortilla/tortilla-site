@@ -1,9 +1,173 @@
 import React from "react";
 
+// Components
+import { Header } from "../components/Header";
+import { Footer } from "../components/Footer";
+
+// Libraries
+import { TypeAnimation } from "react-type-animation";
+
+// Style
+import style from "./Profile.module.scss";
+
 export const Profile = () => {
   return (
-    <div>
-      <h1>Profile</h1>
+    <div className={style.wrapper}>
+      <Header />
+      <div className={style.container}>
+        <h2>Profile</h2>
+        <div>
+          <ul>
+            <li>
+              <TypeAnimation
+                sequence={[1000, "Name "]}
+                wrapper="p"
+                repeat={0}
+                speed={1}
+                cursor={false}
+              />
+              <ul>
+                <li>
+                  <TypeAnimation
+                    sequence={[
+                      2000,
+                      "↳　",
+                      500,
+                      "↳　Taisei Hasegawa (tortilla) ",
+                    ]}
+                    repeat={0}
+                    speed={60}
+                    cursor={false}
+                  />
+                </li>
+              </ul>
+            </li>
+            <li>
+              <TypeAnimation
+                sequence={[1000, "Age "]}
+                wrapper="p"
+                repeat={0}
+                speed={1}
+                cursor={false}
+              />
+              <ul>
+                <li>
+                  <TypeAnimation
+                    sequence={[2000, "↳　", 500, "↳　20 (2000) "]}
+                    repeat={0}
+                    speed={60}
+                    cursor={false}
+                  />
+                </li>
+              </ul>
+            </li>
+            <li>
+              <TypeAnimation
+                sequence={[1000, "Skills "]}
+                wrapper="p"
+                repeat={0}
+                speed={1}
+                cursor={false}
+              />
+              <ul>
+                <li>
+                  <TypeAnimation
+                    sequence={[
+                      2000,
+                      "↳　",
+                      500,
+                      "↳　JavaScript (React) ---> Used in business",
+                    ]}
+                    repeat={0}
+                    speed={60}
+                    cursor={false}
+                  />
+                </li>
+                <li>
+                  <TypeAnimation
+                    sequence={[
+                      2000,
+                      "↳　",
+                      500,
+                      "↳　Java (Spring boot), Vue.js ---> Used in personal dev",
+                    ]}
+                    repeat={0}
+                    speed={60}
+                    cursor={false}
+                  />
+                </li>
+              </ul>
+            </li>
+            <li>
+              <TypeAnimation
+                sequence={[1000, "Fave "]}
+                wrapper="p"
+                repeat={0}
+                speed={1}
+                cursor={false}
+              />
+              <ul>
+                <li>
+                  <TypeAnimation
+                    sequence={[2000, "↳　", 500, "↳　Movies "]}
+                    repeat={0}
+                    speed={60}
+                    cursor={false}
+                  />
+                </li>
+                <li>
+                  <TypeAnimation
+                    sequence={[2000, "↳　", 500, "↳　Plants "]}
+                    repeat={0}
+                    speed={60}
+                    cursor={false}
+                  />
+                  <ul>
+                    <li>
+                      <TypeAnimation
+                        sequence={[
+                          3500,
+                          "↳　",
+                          500,
+                          "↳　Currently growing --> Monstera, Dieffenbachia, Pachira, Chlorophytum comosum, Hakonechloa macra, Hedera",
+                        ]}
+                        repeat={0}
+                        speed={60}
+                        cursor={false}
+                      />
+                    </li>
+                    {/* <ul>
+                      <li>
+                        <TypeAnimation
+                          sequence={[
+                            5000,
+                            "Monstera, Dieffenbachia, Pachira, Chlorophytum comosum, Hakonechloa macra, Hedera",
+                          ]}
+                          repeat={0}
+                          speed={60}
+                          cursor={false}
+                        />
+                      </li>
+                      <li>
+                        <TypeAnimation
+                          sequence={[
+                            5000,
+                            "Monstera, Dieffenbachia, Pachira, Chlorophytum comosum, Hakonechloa macra, Hedera",
+                          ]}
+                          repeat={0}
+                          speed={60}
+                          cursor={false}
+                        />
+                      </li>
+                    </ul> */}
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <Footer />
     </div>
   );
 };
