@@ -13,7 +13,9 @@ import style from "./Profile.module.scss";
 export const Profile = () => {
   return (
     <div className={style.wrapper}>
-      <Header />
+      <header>
+        <Header />
+      </header>
       <div className={style.container}>
         <h2>Profile</h2>
         <div>
@@ -136,30 +138,6 @@ export const Profile = () => {
                         cursor={false}
                       />
                     </li>
-                    {/* <ul>
-                      <li>
-                        <TypeAnimation
-                          sequence={[
-                            5000,
-                            "Monstera, Dieffenbachia, Pachira, Chlorophytum comosum, Hakonechloa macra, Hedera",
-                          ]}
-                          repeat={0}
-                          speed={60}
-                          cursor={false}
-                        />
-                      </li>
-                      <li>
-                        <TypeAnimation
-                          sequence={[
-                            5000,
-                            "Monstera, Dieffenbachia, Pachira, Chlorophytum comosum, Hakonechloa macra, Hedera",
-                          ]}
-                          repeat={0}
-                          speed={60}
-                          cursor={false}
-                        />
-                      </li>
-                    </ul> */}
                   </ul>
                 </li>
               </ul>
@@ -286,30 +264,6 @@ export const Profile = () => {
                         cursor={false}
                       />
                     </li>
-                    {/* <ul>
-                      <li>
-                        <TypeAnimation
-                          sequence={[
-                            5000,
-                            "Monstera, Dieffenbachia, Pachira, Chlorophytum comosum, Hakonechloa macra, Hedera",
-                          ]}
-                          repeat={0}
-                          speed={60}
-                          cursor={false}
-                        />
-                      </li>
-                      <li>
-                        <TypeAnimation
-                          sequence={[
-                            5000,
-                            "Monstera, Dieffenbachia, Pachira, Chlorophytum comosum, Hakonechloa macra, Hedera",
-                          ]}
-                          repeat={0}
-                          speed={60}
-                          cursor={false}
-                        />
-                      </li>
-                    </ul> */}
                   </ul>
                 </li>
               </ul>

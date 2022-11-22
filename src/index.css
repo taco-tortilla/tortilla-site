@@ -16,6 +16,7 @@ body {
   /* color: #f2d9d9; */
   color: white;
   font-size: 1.4rem;
+  overflow: hidden;
 }
 
 code {

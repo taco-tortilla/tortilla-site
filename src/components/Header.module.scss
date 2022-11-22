@@ -2,12 +2,12 @@ $tablet: 960px;
 $sp: 520px;
 
 .wrapper {
-  position: fixed;
-  top: 0;
-  width: 100%;
+  display: flex;
+  justify-content: start;
+  // width: 100vw;
   padding-top: 100px;
   padding-left: 100px;
-  padding-right: 100px;
+  // padding-right: 100px;
   @media screen and (max-width: $tablet) {
     padding-top: 1rem;
     padding-left: 2.5rem;
