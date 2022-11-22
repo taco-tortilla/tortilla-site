@@ -2,9 +2,10 @@ $tablet: 960px;
 $sp: 520px;
 
 .wrapper {
+  height: 100%;
   display: flex;
   flex-flow: column;
-  min-height: 100vh;
+  justify-content: center;
   animation: fadeIn 1s ease-in-out 0s 1 normal;
   -webkit-animation: fadeIn 1s ease-in-out 0s 1 normal;
   @keyframes fadeIn {
@@ -18,8 +19,8 @@ $sp: 520px;
 }
 
 .container {
-  flex: 1;
-  padding: 100px;
+  overflow: auto;
+  height: 80%;
   padding: 100px;
   h2 {
     @media screen and (max-width: $tablet) {
@@ -35,6 +36,8 @@ $sp: 520px;
   }
   @media screen and (max-width: $sp) {
     padding: 2rem;
+    padding-top: 0;
+    padding-bottom: 0;
   }
   ul {
     list-style-type: none;
