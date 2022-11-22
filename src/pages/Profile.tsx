@@ -153,7 +153,7 @@ export const Profile = () => {
                   <li style={{ width: "fit-content" }}>
                     <a href="https://www.instagram.com/_taisei.1">
                       <TypeAnimation
-                        sequence={[2000, "↳　Instagram"]}
+                        sequence={[2000, "↳ ", 500, "↳ Instagram"]}
                         repeat={0}
                         speed={60}
                         cursor={false}

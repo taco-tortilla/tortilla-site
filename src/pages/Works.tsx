@@ -1,19 +1,100 @@
 import React from "react";
-
+import SplitBill from "../images/work_splitbill.png";
 // Components
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
 
 // Style
-import style from "./Blog.module.scss";
+import style from "./Works.module.scss";
 
 export const Works = () => {
   return (
     <div className={style.wrapper}>
       <Header />
       <div className={style.container}>
-        <h2>Works</h2>
-        <h3>I'm getting ready!! :D</h3>
+        <ul>
+          <li>
+            <a>
+              <img src={SplitBill} alt="Custom split the bill" />
+              <div className={style.works_desc}>
+                <h2>Custom split the bill</h2>
+                <p>Personal dev</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a>
+              <img src={SplitBill} alt="Custom split the bill" />
+              <div className={style.works_desc}>
+                <h2>Custom split the bill</h2>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a>
+              <img src={SplitBill} alt="Custom split the bill" />
+              <div className={style.works_desc}>
+                <h2>Custom split the bill</h2>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a>
+              <img src={SplitBill} alt="Custom split the bill" />
+              <div className={style.works_desc}>
+                <h2>Custom split the bill</h2>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a>
+              <img src={SplitBill} alt="Custom split the bill" />
+              <div className={style.works_desc}>
+                <h2>Custom split the bill</h2>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a>
+              <img src={SplitBill} alt="Custom split the bill" />
+              <div className={style.works_desc}>
+                <h2>Custom split the bill</h2>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a>
+              <img src={SplitBill} alt="Custom split the bill" />
+              <div className={style.works_desc}>
+                <h2>Custom split the bill</h2>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a>
+              <img src={SplitBill} alt="Custom split the bill" />
+              <div className={style.works_desc}>
+                <h2>Custom split the bill</h2>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a>
+              <img src={SplitBill} alt="Custom split the bill" />
+              <div className={style.works_desc}>
+                <h2>Custom split the bill</h2>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a>
+              <img src={SplitBill} alt="Custom split the bill" />
+              <div className={style.works_desc}>
+                <h2>Custom split the bill</h2>
+              </div>
+            </a>
+          </li>
+        </ul>
       </div>
       <Footer />
     </div>

@@ -14,8 +14,8 @@ export const Blog = () => {
     <div className={style.wrapper}>
       <Header />
       <div className={style.container}>
-        <h2>Blog</h2>
-        <h3>I'm getting ready!! :D</h3>
+        {/* <h2>Blog</h2> */}
+        <h3>Sorry, I'm getting ready!! :D</h3>
       </div>
     </div>
   );
