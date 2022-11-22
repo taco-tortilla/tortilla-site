@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/tortilla-site/static/css/main.c0614173.css",
-    "main.js": "/tortilla-site/static/js/main.c79178a7.js",
+    "main.css": "/tortilla-site/static/css/main.6f96061e.css",
+    "main.js": "/tortilla-site/static/js/main.bda63108.js",
     "static/js/787.3fc8dd46.chunk.js": "/tortilla-site/static/js/787.3fc8dd46.chunk.js",
     "static/media/bg_water.jpg": "/tortilla-site/static/media/bg_water.01dee714ff5234cc60d3.jpg",
     "index.html": "/tortilla-site/index.html",
-    "main.c0614173.css.map": "/tortilla-site/static/css/main.c0614173.css.map",
-    "main.c79178a7.js.map": "/tortilla-site/static/js/main.c79178a7.js.map",
+    "main.6f96061e.css.map": "/tortilla-site/static/css/main.6f96061e.css.map",
+    "main.bda63108.js.map": "/tortilla-site/static/js/main.bda63108.js.map",
     "787.3fc8dd46.chunk.js.map": "/tortilla-site/static/js/787.3fc8dd46.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0614173.css",
-    "static/js/main.c79178a7.js"
+    "static/css/main.6f96061e.css",
+    "static/js/main.bda63108.js"
   ]
 }
