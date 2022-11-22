@@ -10,11 +10,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #9aaecb;
+  /* background-color: #9aaecb; */
+  background-color: #fafafa;
   font-family: "Chakra Petch", sans-serif;
-  /* color: #f1e6e6; */
-  /* color: #f2d9d9; */
-  color: white;
+  color: #262626;
   font-size: 1.4rem;
   overflow: hidden;
 }
