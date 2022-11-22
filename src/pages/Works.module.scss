@@ -49,6 +49,7 @@ $sp: 520px;
     padding-bottom: 0;
   }
   ul {
+    list-style-type: none;
     @media screen and (max-width: $tablet) {
       padding: 2.5;
     }
@@ -70,16 +71,7 @@ $sp: 520px;
         }
       }
       ul {
-        list-style-type: none;
         padding-left: 1.5rem;
-        a,
-        a:visited,
-        a:hover,
-        a:active {
-          // color: #f2d9d9;
-          color: white;
-          text-decoration: none;
-        }
         @media screen and (max-width: $tablet) {
           // font-size: 2rem;
         }
@@ -88,7 +80,6 @@ $sp: 520px;
         }
         li {
           ul {
-            list-style-type: none;
             padding-left: 4.5rem;
             ul {
               padding-left: 16.8rem;

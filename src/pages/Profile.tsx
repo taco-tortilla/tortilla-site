@@ -141,132 +141,27 @@ export const Profile = () => {
                   </ul>
                 </li>
               </ul>
-            </li>
-          </ul>
-        </div>
-        <div>
-          <ul>
-            <li>
-              <TypeAnimation
-                sequence={[1000, "Name "]}
-                wrapper="p"
-                repeat={0}
-                speed={1}
-                cursor={false}
-              />
-              <ul>
-                <li>
-                  <TypeAnimation
-                    sequence={[
-                      2000,
-                      "↳　",
-                      500,
-                      "↳　Taisei Hasegawa (tortilla) ",
-                    ]}
-                    repeat={0}
-                    speed={60}
-                    cursor={false}
-                  />
-                </li>
-              </ul>
-            </li>
-            <li>
-              <TypeAnimation
-                sequence={[1000, "Age "]}
-                wrapper="p"
-                repeat={0}
-                speed={1}
-                cursor={false}
-              />
-              <ul>
-                <li>
-                  <TypeAnimation
-                    sequence={[2000, "↳　", 500, "↳　20 (2000) "]}
-                    repeat={0}
-                    speed={60}
-                    cursor={false}
-                  />
-                </li>
-              </ul>
-            </li>
-            <li>
-              <TypeAnimation
-                sequence={[1000, "Skills "]}
-                wrapper="p"
-                repeat={0}
-                speed={1}
-                cursor={false}
-              />
-              <ul>
-                <li>
-                  <TypeAnimation
-                    sequence={[
-                      2000,
-                      "↳　",
-                      500,
-                      "↳　JavaScript (React) ---> Used in business",
-                    ]}
-                    repeat={0}
-                    speed={60}
-                    cursor={false}
-                  />
-                </li>
-                <li>
-                  <TypeAnimation
-                    sequence={[
-                      2000,
-                      "↳　",
-                      500,
-                      "↳　Java (Spring boot), Vue.js ---> Used in personal dev",
-                    ]}
-                    repeat={0}
-                    speed={60}
-                    cursor={false}
-                  />
-                </li>
-              </ul>
-            </li>
-            <li>
-              <TypeAnimation
-                sequence={[1000, "Fave "]}
-                wrapper="p"
-                repeat={0}
-                speed={1}
-                cursor={false}
-              />
-              <ul>
-                <li>
-                  <TypeAnimation
-                    sequence={[2000, "↳　", 500, "↳　Movies "]}
-                    repeat={0}
-                    speed={60}
-                    cursor={false}
-                  />
-                </li>
-                <li>
-                  <TypeAnimation
-                    sequence={[2000, "↳　", 500, "↳　Plants "]}
-                    repeat={0}
-                    speed={60}
-                    cursor={false}
-                  />
-                  <ul>
-                    <li>
+              <li>
+                <TypeAnimation
+                  sequence={[1000, "SNS "]}
+                  wrapper="p"
+                  repeat={0}
+                  speed={1}
+                  cursor={false}
+                />
+                <ul>
+                  <li style={{ width: "fit-content" }}>
+                    <a href="https://www.instagram.com/_taisei.1">
                       <TypeAnimation
-                        sequence={[
-                          3500,
-                          "↳　",
-                          500,
-                          "↳　Currently growing --> Monstera, Dieffenbachia, Pachira, Chlorophytum comosum, Hakonechloa macra, Hedera",
-                        ]}
+                        sequence={[2000, "↳　Instagram"]}
                         repeat={0}
                         speed={60}
                         cursor={false}
                       />
-                    </li>
-                  </ul>
-                </li>
-              </ul>
+                    </a>
+                  </li>
+                </ul>
+              </li>
             </li>
           </ul>
         </div>
