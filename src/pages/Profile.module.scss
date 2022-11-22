@@ -19,9 +19,10 @@ $sp: 520px;
 }
 
 .container {
+  height: calc(100vh - 400px);
   overflow: auto;
-  height: 80%;
-  padding: 100px;
+  margin: 100px 100px 50px 100px;
+
   h2 {
     @media screen and (max-width: $tablet) {
       margin-bottom: 1rem;
@@ -35,6 +36,8 @@ $sp: 520px;
     padding: 2.5rem;
   }
   @media screen and (max-width: $sp) {
+    height: 80%;
+    margin: 0;
     padding: 2rem;
     padding-top: 0;
     padding-bottom: 0;
