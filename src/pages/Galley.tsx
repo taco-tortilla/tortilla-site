@@ -4,7 +4,6 @@ import React from "react";
 import { Header } from "../components/Header";
 
 // Libraries
-// import { ImageList, ImageListItem } from "@mui/material";
 import Gallery from "react-photo-gallery";
 import { Footer } from "../components/Footer";
 
@@ -16,8 +15,6 @@ export const Galley = () => {
     <div className={style.wrapper}>
       <Header />
       <div className={style.container}>
-        {/* <h2>Galley</h2>
-        <h3>I'm getting ready!! :D</h3> */}
         <Gallery photos={photos} />
       </div>
       <Footer />
