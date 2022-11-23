@@ -10,7 +10,9 @@ import style from "./Works.module.scss";
 export const Works = () => {
   return (
     <div className={style.wrapper}>
-      <Header />
+      <header>
+        <Header />
+      </header>
       <div className={style.container}>
         <ul>
           <li>
@@ -18,7 +20,30 @@ export const Works = () => {
               <img src={SplitBill} alt="Custom split the bill" />
               <div className={style.works_desc}>
                 <h2>Custom split the bill</h2>
-                <p>Personal dev</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a>
+              <img src={SplitBill} alt="Custom split the bill" />
+              <div className={style.works_desc}>
+                <h2>Custom split the bill</h2>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a>
+              <img src={SplitBill} alt="Custom split the bill" />
+              <div className={style.works_desc}>
+                <h2>Custom split the bill</h2>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a>
+              <img src={SplitBill} alt="Custom split the bill" />
+              <div className={style.works_desc}>
+                <h2>Custom split the bill</h2>
               </div>
             </a>
           </li>

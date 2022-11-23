@@ -18,9 +18,7 @@ import style from "./Home.module.scss";
 export const Home = () => {
   return (
     <div className={style.wrapper}>
-      <header>
-        <Header />
-      </header>
+      <Header />
       <div className={style.container}>
         <div className={style.menu}>
           <TypeAnimation
@@ -142,9 +140,7 @@ export const Home = () => {
           <img src={BgImage} alt="bacground" />
         </div>
       </div>
-      <footer>
-        <Footer />
-      </footer>
+      <Footer />
     </div>
   );
 };

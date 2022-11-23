@@ -55,7 +55,7 @@ export const Profile = () => {
               <ul>
                 <li>
                   <TypeAnimation
-                    sequence={[2000, "↳　", 500, "↳　20 (2000) "]}
+                    sequence={[2000, "↳　", 500, "↳　22 (2000) "]}
                     repeat={0}
                     speed={60}
                     cursor={false}
@@ -153,7 +153,7 @@ export const Profile = () => {
                   <li style={{ width: "fit-content" }}>
                     <a href="https://www.instagram.com/_taisei.1">
                       <TypeAnimation
-                        sequence={[2000, "↳ ", 500, "↳ Instagram"]}
+                        sequence={[2000, "↳ ", 500, "↳　Instagram"]}
                         repeat={0}
                         speed={60}
                         cursor={false}

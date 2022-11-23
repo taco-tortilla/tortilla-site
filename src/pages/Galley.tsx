@@ -13,9 +13,13 @@ import style from "./Galley.module.scss";
 export const Galley = () => {
   return (
     <div className={style.wrapper}>
-      <Header />
+      <header>
+        <Header />
+      </header>
       <div className={style.container}>
+        {/* <div className={style.inner}> */}
         <Gallery photos={photos} />
+        {/* </div> */}
       </div>
       <Footer />
     </div>
