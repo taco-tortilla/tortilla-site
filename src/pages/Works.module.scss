@@ -2,6 +2,8 @@ $tablet: 960px;
 $sp: 520px;
 
 .wrapper {
+  overflow-y: auto;
+  overflow-x: hidden;
   padding-top: 4rem;
   animation: fadeIn 1s ease-in-out 0s 1 normal;
   -webkit-animation: fadeIn 1s ease-in-out 0s 1 normal;
@@ -21,6 +23,7 @@ $sp: 520px;
 }
 
 .container {
+  min-height: calc(100vh - 196px);
   @media screen and (max-width: $tablet) {
     padding: 0;
   }

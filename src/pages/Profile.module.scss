@@ -5,6 +5,7 @@ $sp: 520px;
   padding-top: 4rem;
   animation: fadeIn 1s ease-in-out 0s 1 normal;
   -webkit-animation: fadeIn 1s ease-in-out 0s 1 normal;
+  overflow-x: hidden;
   @keyframes fadeIn {
     0% {
       opacity: 0;
@@ -23,6 +24,7 @@ $sp: 520px;
 .container {
   width: 80vw;
   margin: 5vw auto 7.5vw;
+  min-height: calc(100vh - 183.5px);
   h2 {
     @media screen and (max-width: $tablet) {
       margin-bottom: 1rem;

@@ -23,4 +23,5 @@ $sp: 520px;
 .container {
   width: 80vw;
   margin: 5vw auto 0.2vw;
+  min-height: calc(100vh - 183.5px);
 }

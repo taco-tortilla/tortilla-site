@@ -162,6 +162,27 @@ export const Profile = () => {
                   </li>
                 </ul>
               </li>
+              <li>
+                <TypeAnimation
+                  sequence={[1000, "Contact "]}
+                  wrapper="p"
+                  repeat={0}
+                  speed={1}
+                  cursor={false}
+                />
+                <ul>
+                  <li style={{ width: "fit-content" }}>
+                    <a href="mailto:&#116;&#111;&#114;&#116;&#105;&#108;&#108;&#97;&#116;&#97;&#99;&#111;&#48;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">
+                      <TypeAnimation
+                        sequence={[2000, "↳ ", 500, "↳　Mail ;-)"]}
+                        repeat={0}
+                        speed={60}
+                        cursor={false}
+                      />
+                    </a>
+                  </li>
+                </ul>
+              </li>
             </li>
           </ul>
         </div>
