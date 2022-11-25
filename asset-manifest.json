@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/tortilla-site/static/css/main.5b2b0f2a.css",
-    "main.js": "/tortilla-site/static/js/main.5d7b02ab.js",
+    "main.css": "/tortilla-site/static/css/main.88b783f6.css",
+    "main.js": "/tortilla-site/static/js/main.0fc51411.js",
     "static/js/787.3fc8dd46.chunk.js": "/tortilla-site/static/js/787.3fc8dd46.chunk.js",
     "static/media/bg_water.jpg": "/tortilla-site/static/media/bg_water.01dee714ff5234cc60d3.jpg",
     "static/media/work_splitbill.png": "/tortilla-site/static/media/work_splitbill.7919070b6a0c735ad6cb.png",
     "index.html": "/tortilla-site/index.html",
-    "main.5b2b0f2a.css.map": "/tortilla-site/static/css/main.5b2b0f2a.css.map",
-    "main.5d7b02ab.js.map": "/tortilla-site/static/js/main.5d7b02ab.js.map",
+    "main.88b783f6.css.map": "/tortilla-site/static/css/main.88b783f6.css.map",
+    "main.0fc51411.js.map": "/tortilla-site/static/js/main.0fc51411.js.map",
     "787.3fc8dd46.chunk.js.map": "/tortilla-site/static/js/787.3fc8dd46.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b2b0f2a.css",
-    "static/js/main.5d7b02ab.js"
+    "static/css/main.88b783f6.css",
+    "static/js/main.0fc51411.js"
   ]
 }
