@@ -25,3 +25,14 @@ $sp: 520px;
   margin: 5vw auto 0.2vw;
   min-height: calc(100vh - 183.5px);
 }
+
+img {
+  pointer-events: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-touch-callout: none;
+  -moz-user-select: none;
+  // -webkit-touch-callout: none;
+  user-select: none;
+  object-fit: cover;
+}

@@ -15,13 +15,35 @@ $sp: 520px;
     padding-top: 0;
     padding-left: 1rem;
   }
-  h1 {
-    color: #262626;
+  img {
+    width: 6rem;
     @media screen and (max-width: $tablet) {
-      font-size: 2rem;
+      width: 6rem;
     }
     @media screen and (max-width: $sp) {
-      font-size: 1.7rem;
+      padding-top: 0.5rem;
+      width: 5rem;
     }
+  }
+}
+.logo:hover {
+  animation: shiver 0.1s infinite;
+}
+
+@keyframes shiver {
+  0% {
+    transform: translate(0px, 0px) rotateZ(0deg);
+  }
+  25% {
+    transform: translate(2px, 2px) rotateZ(1deg);
+  }
+  50% {
+    transform: translate(0px, 2px) rotateZ(0deg);
+  }
+  75% {
+    transform: translate(2px, 0px) rotateZ(-1deg);
+  }
+  100% {
+    transform: translate(0px, 0px) rotateZ(0deg);
   }
 }

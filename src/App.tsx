@@ -6,15 +6,17 @@ import { Profile } from "./pages/Profile";
 import { Works } from "./pages/Works";
 import { Blog } from "./pages/Blog";
 
+const homeURL = process.env.PUBLIC_URL;
+
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/tortilla-site/" element={<Home />} />
-        <Route path="/tortilla-site/profile" element={<Profile />} />
-        <Route path="/tortilla-site/works" element={<Works />} />
-        <Route path="/tortilla-site/galley" element={<Galley />} />
-        <Route path="/tortilla-site/blog" element={<Blog />} />
+        <Route path={homeURL} element={<Home />} />
+        <Route path={homeURL + "/profile"} element={<Profile />} />
+        <Route path={homeURL + "/works"} element={<Works />} />
+        <Route path={homeURL + "/galley"} element={<Galley />} />
+        <Route path={homeURL + "/blog"} element={<Blog />} />
       </Routes>
     </BrowserRouter>
   );

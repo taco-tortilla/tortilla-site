@@ -2,6 +2,7 @@ import React from "react";
 
 // Components
 import { Header } from "../components/Header";
+import storage from "../components/Firebase";
 
 // Libraries
 import Gallery from "react-photo-gallery";
@@ -17,9 +18,7 @@ export const Galley = () => {
         <Header />
       </header>
       <div className={style.container}>
-        {/* <div className={style.inner}> */}
         <Gallery photos={photos} />
-        {/* </div> */}
       </div>
       <Footer />
     </div>
@@ -28,88 +27,33 @@ export const Galley = () => {
 
 export const photos = [
   {
-    src: "https://source.unsplash.com/2ShvY8Lf6l0/800x599",
-    width: 4,
-    height: 3,
+    src: "https://user-images.githubusercontent.com/101196108/204067977-db3fadb2-27aa-44ab-81a8-117f9e05850c.jpg",
+    width: 878,
+    height: 878,
   },
   {
-    src: "https://source.unsplash.com/Dm-qxdynoEc/800x799",
-    width: 1,
-    height: 1,
+    src: "https://user-images.githubusercontent.com/101196108/204067937-7e084a9c-4b78-41b3-9e52-516d14403f21.jpg",
+    width: 2000,
+    height: 1125,
   },
   {
-    src: "https://source.unsplash.com/qDkso9nvCg0/600x799",
-    width: 3,
-    height: 4,
+    src: "https://user-images.githubusercontent.com/101196108/204068216-ad59bf82-0955-4329-adcd-adfb9fc950ee.JPG",
+    width: 2000,
+    height: 1125,
   },
   {
-    src: "https://source.unsplash.com/iecJiKe_RNg/600x799",
-    width: 3,
-    height: 4,
+    src: "https://user-images.githubusercontent.com/101196108/204068111-78776d18-a51a-43ff-879c-7550fdfb3655.jpg",
+    width: 3024,
+    height: 4032,
   },
   {
-    src: "https://source.unsplash.com/epcsn8Ed8kY/600x799",
-    width: 3,
-    height: 4,
+    src: "https://user-images.githubusercontent.com/101196108/204068048-16bf96be-55cb-4894-a403-627caa7f5fa3.jpg",
+    width: 2000,
+    height: 1125,
   },
   {
-    src: "https://source.unsplash.com/NQSWvyVRIJk/800x599",
-    width: 4,
-    height: 3,
-  },
-  {
-    src: "https://source.unsplash.com/zh7GEuORbUw/600x799",
-    width: 3,
-    height: 4,
-  },
-  {
-    src: "https://source.unsplash.com/PpOHJezOalU/800x599",
-    width: 4,
-    height: 3,
-  },
-  {
-    src: "https://source.unsplash.com/I1ASdgphUH4/800x599",
-    width: 4,
-    height: 3,
-  },
-  {
-    src: "https://source.unsplash.com/XiDA78wAZVw/600x799",
-    width: 3,
-    height: 4,
-  },
-  {
-    src: "https://source.unsplash.com/x8xJpClTvR0/800x599",
-    width: 4,
-    height: 3,
-  },
-  {
-    src: "https://source.unsplash.com/u9cG4cuJ6bU/4927x1000",
-    width: 4927,
-    height: 1000,
-  },
-  {
-    src: "https://source.unsplash.com/qGQNmBE7mYw/800x599",
-    width: 4,
-    height: 3,
-  },
-  {
-    src: "https://source.unsplash.com/NuO6iTBkHxE/800x599",
-    width: 4,
-    height: 3,
-  },
-  {
-    src: "https://source.unsplash.com/pF1ug8ysTtY/600x400",
-    width: 4,
-    height: 3,
-  },
-  {
-    src: "https://source.unsplash.com/A-fubu9QJxE/800x533",
-    width: 4,
-    height: 3,
-  },
-  {
-    src: "https://source.unsplash.com/5P91SF0zNsI/740x494",
-    width: 4,
-    height: 3,
+    src: "https://user-images.githubusercontent.com/101196108/204068170-590b81e3-8a06-4a85-8cd7-8b251ba8c016.JPG",
+    width: 1125,
+    height: 2000,
   },
 ];

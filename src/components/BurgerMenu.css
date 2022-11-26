@@ -59,7 +59,7 @@
   top: 0;
   z-index: 80;
   background-color: #262626;
-  /* color: #222; */
+  color: #222;
   transition: all 500ms 0s ease;
 }
 
@@ -69,7 +69,6 @@
 }
 
 .menu-content ul {
-  /* padding: 70px 10px 0; */
   padding: 2rem;
   padding-top: 4rem;
 }
@@ -83,7 +82,6 @@
   font-size: 15px;
   box-sizing: border-box;
   text-decoration: none;
-  /* padding: 9px 15px 10px 0; */
   padding: 1rem;
   position: relative;
 }
@@ -91,8 +89,6 @@
   content: "";
   width: 7px;
   height: 7px;
-  /* border-top: solid 2px #ccc;
-  border-right: solid 2px #ccc; */
   transform: rotate(45deg);
   position: absolute;
   right: 11px;

@@ -23,7 +23,7 @@ export const Profile = () => {
             <li>
               <TypeAnimation
                 sequence={[1000, "Name "]}
-                wrapper="p"
+                wrapper="h4"
                 repeat={0}
                 speed={1}
                 cursor={false}
@@ -47,7 +47,7 @@ export const Profile = () => {
             <li>
               <TypeAnimation
                 sequence={[1000, "Age "]}
-                wrapper="p"
+                wrapper="h4"
                 repeat={0}
                 speed={1}
                 cursor={false}
@@ -66,7 +66,7 @@ export const Profile = () => {
             <li>
               <TypeAnimation
                 sequence={[1000, "Skills "]}
-                wrapper="p"
+                wrapper="h4"
                 repeat={0}
                 speed={1}
                 cursor={false}
@@ -103,7 +103,7 @@ export const Profile = () => {
             <li>
               <TypeAnimation
                 sequence={[1000, "Fave "]}
-                wrapper="p"
+                wrapper="h4"
                 repeat={0}
                 speed={1}
                 cursor={false}
@@ -113,9 +113,24 @@ export const Profile = () => {
                   <TypeAnimation
                     sequence={[2000, "↳　", 500, "↳　Movies "]}
                     repeat={0}
-                    speed={60}
+                    speed={30}
                     cursor={false}
                   />
+                  <ul>
+                    <li>
+                      <TypeAnimation
+                        sequence={[
+                          3500,
+                          "↳　",
+                          500,
+                          "↳　Recentry, I have been following the movies of Rikiya Imaizumi directors.",
+                        ]}
+                        repeat={0}
+                        speed={30}
+                        cursor={false}
+                      />
+                    </li>
+                  </ul>
                 </li>
                 <li>
                   <TypeAnimation
@@ -144,16 +159,20 @@ export const Profile = () => {
               <li>
                 <TypeAnimation
                   sequence={[1000, "SNS "]}
-                  wrapper="p"
+                  wrapper="h4"
                   repeat={0}
                   speed={1}
                   cursor={false}
                 />
                 <ul>
                   <li style={{ width: "fit-content" }}>
-                    <a href="https://www.instagram.com/_taisei.1">
+                    <a
+                      href="https://www.instagram.com/_taisei.1"
+                      className={style.link}
+                    >
                       <TypeAnimation
                         sequence={[2000, "↳ ", 500, "↳　Instagram"]}
+                        wrapper="p"
                         repeat={0}
                         speed={60}
                         cursor={false}
@@ -165,16 +184,20 @@ export const Profile = () => {
               <li>
                 <TypeAnimation
                   sequence={[1000, "Contact "]}
-                  wrapper="p"
+                  wrapper="h4"
                   repeat={0}
                   speed={1}
                   cursor={false}
                 />
                 <ul>
                   <li style={{ width: "fit-content" }}>
-                    <a href="mailto:&#116;&#111;&#114;&#116;&#105;&#108;&#108;&#97;&#116;&#97;&#99;&#111;&#48;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">
+                    <a
+                      href="mailto:&#116;&#111;&#114;&#116;&#105;&#108;&#108;&#97;&#116;&#97;&#99;&#111;&#48;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;"
+                      className={style.link}
+                    >
                       <TypeAnimation
                         sequence={[2000, "↳ ", 500, "↳　Mail ;-)"]}
+                        wrapper="p"
                         repeat={0}
                         speed={60}
                         cursor={false}

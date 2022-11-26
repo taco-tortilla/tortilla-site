@@ -23,6 +23,7 @@ $sp: 520px;
 }
 
 .container {
+  margin: 5vw auto 0.2vw;
   min-height: calc(100vh - 196px);
   @media screen and (max-width: $tablet) {
     padding: 0;

@@ -55,7 +55,7 @@ $sp: 520px;
     li {
       padding-top: 0.3rem;
       padding-bottom: 0.3rem;
-      p {
+      h4 {
         font-size: 1.6rem;
         font-weight: bold;
         margin: 0;
@@ -71,7 +71,7 @@ $sp: 520px;
         padding-left: 1.5rem;
         a,
         a:visited,
-        a:hover,
+        // a:hover,
         a:active {
           color: #262626;
           text-decoration: none;
@@ -93,5 +93,36 @@ $sp: 520px;
         }
       }
     }
+  }
+}
+
+.link {
+  p {
+    font-size: 100%;
+    font-weight: normal;
+    &:hover {
+      font-size: 100%;
+      color: #5a739b;
+      font-weight: bolder;
+      animation: shiver 0.1s infinite;
+    }
+  }
+}
+
+@keyframes shiver {
+  0% {
+    transform: translate(0px, 0px) rotateZ(0deg);
+  }
+  25% {
+    transform: translate(2px, 2px) rotateZ(1deg);
+  }
+  50% {
+    transform: translate(0px, 2px) rotateZ(0deg);
+  }
+  75% {
+    transform: translate(2px, 0px) rotateZ(-1deg);
+  }
+  100% {
+    transform: translate(0px, 0px) rotateZ(0deg);
   }
 }
