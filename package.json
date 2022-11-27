@@ -1,5 +1,6 @@
 {
   "name": "tortilla-site",
+  "homepage": "https://taco-tortilla.github.io/tortilla-site",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -27,7 +28,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "cross-env PUBLIC_URL=/tortilla-site react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
