@@ -60,7 +60,7 @@ export const BurgerMenu = () => {
           </li>
           <li>
             <Link
-              to="/galley"
+              to="/gallery"
               className="link"
               style={
                 location.pathname === "/gallery"
