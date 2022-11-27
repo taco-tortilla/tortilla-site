@@ -13,11 +13,7 @@ import style from "./Header.module.scss";
 export const Header = () => {
   return (
     <div className={style.wrapper}>
-      <Link
-        style={{ textDecoration: "none" }}
-        to="/tortilla.page/"
-        className={style.logo}
-      >
+      <Link style={{ textDecoration: "none" }} to="/" className={style.logo}>
         <img src={logo} alt="logo" />
       </Link>
       <BurgerMenu />
