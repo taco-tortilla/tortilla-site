@@ -36,10 +36,7 @@ export const Home = () => {
           />
           <ul>
             <li>
-              <Link
-                style={{ textDecoration: "none" }}
-                to="/tortilla-site/profile"
-              >
+              <Link style={{ textDecoration: "none" }} to="/profile">
                 <TypeAnimation
                   sequence={[
                     3500,
@@ -61,10 +58,7 @@ export const Home = () => {
               </Link>
             </li>
             <li>
-              <Link
-                style={{ textDecoration: "none" }}
-                to="/tortilla-site/works"
-              >
+              <Link style={{ textDecoration: "none" }} to="/works">
                 {" "}
                 <TypeAnimation
                   sequence={[
@@ -87,10 +81,7 @@ export const Home = () => {
               </Link>
             </li>
             <li>
-              <Link
-                style={{ textDecoration: "none" }}
-                to="/tortilla-site/gallery"
-              >
+              <Link style={{ textDecoration: "none" }} to="/gallery">
                 <TypeAnimation
                   sequence={[
                     4500,
@@ -112,7 +103,7 @@ export const Home = () => {
               </Link>
             </li>
             <li>
-              <Link style={{ textDecoration: "none" }} to="/tortilla-site/blog">
+              <Link style={{ textDecoration: "none" }} to="/blog">
                 {" "}
                 <TypeAnimation
                   sequence={[
