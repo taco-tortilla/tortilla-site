@@ -1,6 +1,10 @@
 $tablet: 960px;
 $sp: 520px;
 
+html {
+  background-color: #f5f5f5;
+}
+
 .wrapper {
   overflow: hidden;
   display: flex;
