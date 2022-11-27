@@ -15,7 +15,7 @@ export const Header = () => {
     <div className={style.wrapper}>
       <Link
         style={{ textDecoration: "none" }}
-        to="/tortilla-site/"
+        to="/tortilla.page/"
         className={style.logo}
       >
         <img src={logo} alt="logo" />

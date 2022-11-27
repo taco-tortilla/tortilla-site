@@ -21,10 +21,10 @@ export const BurgerMenu = () => {
         <ul>
           <li>
             <Link
-              to="/"
+              to="/tortilla.page/"
               className="link"
               style={
-                location.pathname === "/"
+                location.pathname === "/tortilla.page/"
                   ? { color: "#5a739b", fontWeight: "bolde" }
                   : { color: "#ccc" }
               }
@@ -34,10 +34,10 @@ export const BurgerMenu = () => {
           </li>
           <li>
             <Link
-              to="/profile"
+              to="/tortilla.page/profile"
               className="link"
               style={
-                location.pathname === "/profile"
+                location.pathname === "/tortilla.page/profile"
                   ? { color: "#5a739b", fontWeight: "bold" }
                   : { color: "#ccc" }
               }
@@ -47,10 +47,10 @@ export const BurgerMenu = () => {
           </li>
           <li>
             <Link
-              to="/works"
+              to="/tortilla.page/works"
               className="link"
               style={
-                location.pathname === "/works"
+                location.pathname === "/tortilla.page/works"
                   ? { color: "#5a739b", fontWeight: "bold" }
                   : { color: "#ccc" }
               }
@@ -60,10 +60,10 @@ export const BurgerMenu = () => {
           </li>
           <li>
             <Link
-              to="/galley"
+              to="/tortilla.page/galley"
               className="link"
               style={
-                location.pathname === "/gallery"
+                location.pathname === "/tortilla.page/gallery"
                   ? { color: "#5a739b", fontWeight: "bold" }
                   : { color: "#ccc" }
               }
@@ -73,10 +73,10 @@ export const BurgerMenu = () => {
           </li>
           <li>
             <Link
-              to="/blog"
+              to="/tortilla.page/blog"
               className="link"
               style={
-                location.pathname === "/blog"
+                location.pathname === "/tortilla.page/blog"
                   ? { color: "#5a739b", fontWeight: "bold" }
                   : { color: "#ccc" }
               }
