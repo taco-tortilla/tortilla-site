@@ -1,0 +1,140 @@
+$tablet: 960px;
+$sp: 520px;
+
+.wrapper {
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-top: 4rem;
+  animation: fadeIn 1s ease-in-out 0s 1 normal;
+  -webkit-animation: fadeIn 1s ease-in-out 0s 1 normal;
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  header {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+  }
+}
+
+.container {
+  margin: 5vw auto 0.2vw;
+  min-height: calc(100vh - 196px);
+  @media screen and (max-width: $tablet) {
+    padding: 0;
+  }
+  @media screen and (max-width: $sp) {
+    padding: 0;
+  }
+  ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80vw;
+    margin: 5vw auto 7.5vw;
+    @media screen and (max-width: $tablet) {
+      margin: 5rem;
+    }
+    @media screen and (max-width: $sp) {
+      margin: 0;
+    }
+    li {
+      display: block;
+      padding-bottom: 7.5vw;
+      width: 38vw;
+      @media screen and (max-width: $tablet) {
+        width: 100%;
+      }
+      @media screen and (max-width: $sp) {
+        width: 100%;
+      }
+      a {
+        img {
+          width: 100%;
+          height: auto;
+        }
+        .works_desc {
+          padding-left: 1rem;
+          padding-top: 1rem;
+          @media screen and (max-width: $tablet) {
+            padding-left: 0.7rem;
+            padding-top: 0.7rem;
+          }
+          @media screen and (max-width: $sp) {
+            padding-left: 0.5rem;
+            padding-top: 0.5rem;
+          }
+          h2 {
+            margin: 0;
+            font-size: 2rem;
+            @media screen and (max-width: $tablet) {
+              font-size: 1.5rem;
+            }
+            @media screen and (max-width: $sp) {
+              font-size: 1.2rem;
+            }
+          }
+          p {
+            margin: 0;
+            padding-top: 0.5rem;
+            @media screen and (max-width: $tablet) {
+              padding-top: 0.3rem;
+              font-size: 1.2rem;
+            }
+            @media screen and (max-width: $sp) {
+              padding-top: 0.2rem;
+              font-size: 1rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.image_container {
+  margin: 0 auto;
+  width: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img {
+    width: 100%;
+    z-index: 1;
+    opacity: 0.8;
+    pointer-events: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-touch-callout: none;
+    -moz-user-select: none;
+    // touch-callout: none;
+    user-select: none;
+    object-fit: cover;
+    animation: fadeIn 5s ease-in 0s 1 normal;
+    -webkit-animation: fadeIn 5s ease-in 0s 1 normal;
+
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      70% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 0.8;
+      }
+    }
+    @media screen and (max-width: $tablet) {
+      height: calc(100vh - 35rem);
+    }
+    @media screen and (max-width: $sp) {
+      height: calc(100vh - 25rem);
+    }
+  }
+}

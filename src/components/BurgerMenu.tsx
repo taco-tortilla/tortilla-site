@@ -11,10 +11,6 @@ export const BurgerMenu = () => {
     console.log(location.pathname);
   }, [useLocation]);
 
-  // const currentMenu: currentMenu = (): string => {
-  //   return "aa";
-  // };
-
   return (
     <div className="hamburger-menu">
       <input type="checkbox" id="menu-btn-check" />
@@ -67,12 +63,12 @@ export const BurgerMenu = () => {
               to="/tortilla-site/galley"
               className="link"
               style={
-                location.pathname === "/tortilla-site/galley"
+                location.pathname === "/tortilla-site/gallery"
                   ? { color: "#5a739b", fontWeight: "bold" }
                   : { color: "#ccc" }
               }
             >
-              Galley
+              Gallery
             </Link>
           </li>
           <li>

@@ -89,18 +89,18 @@ export const Home = () => {
             <li>
               <Link
                 style={{ textDecoration: "none" }}
-                to="/tortilla-site/galley"
+                to="/tortilla-site/gallery"
               >
                 <TypeAnimation
                   sequence={[
                     4500,
-                    "GALLEY",
+                    "GALLERY",
                     6000,
-                    "gAlLeY",
+                    "gAlLeRy",
                     6000,
-                    "GaLlEy",
+                    "GaLlErY",
                     6000,
-                    "galley",
+                    "gallery",
                     6000,
                   ]}
                   wrapper="p"

@@ -20,7 +20,7 @@ export const Works = () => {
               <img src={SplitBill} alt="Custom split the bill" />
               <div className={style.works_desc}>
                 <h2>Custom split the bill</h2>
-                <p>Personal dev</p>
+                <p>Personal dev (Currently not in use)</p>
               </div>
             </a>
           </li>

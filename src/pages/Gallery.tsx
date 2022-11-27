@@ -1,24 +1,27 @@
-import React from "react";
+import React, { useState } from "react";
 
 // Components
 import { Header } from "../components/Header";
-import storage from "../components/Firebase";
 
 // Libraries
-import Gallery from "react-photo-gallery";
+import GalleryLibrary from "react-photo-gallery";
 import { Footer } from "../components/Footer";
+import { Button } from "@mui/material";
 
 // Style
 import style from "./Galley.module.scss";
 
-export const Galley = () => {
+export const Gallery = () => {
+  const [select, setSelect] = useState<number>(0);
   return (
     <div className={style.wrapper}>
       <header>
         <Header />
       </header>
       <div className={style.container}>
-        <Gallery photos={photos} />
+        {/* <Button variant="outlined"> Photo </Button>
+        <Button variant="outlined"> Picture </Button> */}
+        <GalleryLibrary photos={photos} />
       </div>
       <Footer />
     </div>
