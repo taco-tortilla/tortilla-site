@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.82e1673c.css",
+    "main.css": "/static/css/main.d4cb32be.css",
     "main.js": "/static/js/main.b2b41850.js",
     "static/js/787.3fc8dd46.chunk.js": "/static/js/787.3fc8dd46.chunk.js",
     "static/media/bg_water.jpg": "/static/media/bg_water.01dee714ff5234cc60d3.jpg",
     "static/media/work_splitbill.png": "/static/media/work_splitbill.7919070b6a0c735ad6cb.png",
     "static/media/logo.svg": "/static/media/logo.3bd5dd401e6fac8f43bdfd3d308372a4.svg",
     "index.html": "/index.html",
-    "main.82e1673c.css.map": "/static/css/main.82e1673c.css.map",
+    "main.d4cb32be.css.map": "/static/css/main.d4cb32be.css.map",
     "main.b2b41850.js.map": "/static/js/main.b2b41850.js.map",
     "787.3fc8dd46.chunk.js.map": "/static/js/787.3fc8dd46.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.82e1673c.css",
+    "static/css/main.d4cb32be.css",
     "static/js/main.b2b41850.js"
   ]
 }
