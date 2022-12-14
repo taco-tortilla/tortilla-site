@@ -103,7 +103,10 @@ export const Home = () => {
               </Link>
             </li>
             <li>
-              <Link style={{ textDecoration: "none" }} to="/blog">
+              <a
+                style={{ textDecoration: "none" }}
+                href="https://pyrite-pigeon-cd9.notion.site/Blog-1db21f5bd5c3433ebe2e92178a7aaf65"
+              >
                 {" "}
                 <TypeAnimation
                   sequence={[
@@ -123,7 +126,7 @@ export const Home = () => {
                   deletionSpeed={1}
                   className={style.text}
                 />
-              </Link>
+              </a>
             </li>
           </ul>
         </div>

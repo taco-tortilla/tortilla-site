@@ -13,9 +13,7 @@ import style from "./Blog.module.scss";
 export const Blog = () => {
   return (
     <div className={style.wrapper}>
-      <header>
-        <Header />
-      </header>
+      <Header />
       <div className={style.container}>
         {/* <h2>Blog</h2> */}
         <h3>Sorry, I'm getting ready!! :D</h3>

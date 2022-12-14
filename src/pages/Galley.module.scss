@@ -2,7 +2,6 @@ $tablet: 960px;
 $sp: 520px;
 
 .wrapper {
-  padding-top: 4rem;
   animation: fadeIn 1s ease-in-out 0s 1 normal;
   -webkit-animation: fadeIn 1s ease-in-out 0s 1 normal;
   @keyframes fadeIn {
@@ -12,11 +11,6 @@ $sp: 520px;
     100% {
       opacity: 1;
     }
-  }
-  header {
-    position: fixed;
-    top: 0;
-    z-index: 100;
   }
 }
 

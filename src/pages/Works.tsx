@@ -10,9 +10,7 @@ import style from "./Works.module.scss";
 export const Works = () => {
   return (
     <div className={style.wrapper}>
-      <header>
-        <Header />
-      </header>
+      <Header />
       <div className={style.container}>
         <ul>
           <li>

@@ -13,9 +13,7 @@ import style from "./Profile.module.scss";
 export const Profile = () => {
   return (
     <div className={style.wrapper}>
-      <header>
-        <Header />
-      </header>
+      <Header />
       <div className={style.container}>
         <h2>Profile</h2>
         <div>
@@ -126,7 +124,7 @@ export const Profile = () => {
                           "↳　Recentry, I have been following the movies of Rikiya Imaizumi directors.",
                         ]}
                         repeat={0}
-                        speed={30}
+                        speed={80}
                         cursor={false}
                       />
                     </li>
@@ -149,7 +147,7 @@ export const Profile = () => {
                           "↳　Currently growing --> Monstera, Dieffenbachia, Pachira, Chlorophytum comosum, Hakonechloa macra, Hedera",
                         ]}
                         repeat={0}
-                        speed={60}
+                        speed={80}
                         cursor={false}
                       />
                     </li>

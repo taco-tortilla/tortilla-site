@@ -1,6 +1,8 @@
 .menu-btn {
-  position: fixed;
-  top: 4.5%;
+  /* position: fixed; */
+  /* top: 4.5%; */
+  position: relative;
+  top: 1.5rem;
   right: 2%;
   display: flex;
   height: 2rem;

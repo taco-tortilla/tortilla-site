@@ -15,9 +15,7 @@ export const Gallery = () => {
   const [select, setSelect] = useState<number>(0);
   return (
     <div className={style.wrapper}>
-      <header>
-        <Header />
-      </header>
+      <Header />
       <div className={style.container}>
         {/* <Button variant="outlined"> Photo </Button>
         <Button variant="outlined"> Picture </Button> */}

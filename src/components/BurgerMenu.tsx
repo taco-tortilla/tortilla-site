@@ -7,9 +7,6 @@ import "./BurgerMenu.css";
 type currentMenu = () => string;
 export const BurgerMenu = () => {
   let location = useLocation();
-  useEffect(() => {
-    console.log(location.pathname);
-  }, [useLocation]);
 
   return (
     <div className="hamburger-menu">
@@ -72,8 +69,8 @@ export const BurgerMenu = () => {
             </Link>
           </li>
           <li>
-            <Link
-              to="/blog"
+            <a
+              href="https://pyrite-pigeon-cd9.notion.site/Blog-1db21f5bd5c3433ebe2e92178a7aaf65"
               className="link"
               style={
                 location.pathname === "/blog"
@@ -82,7 +79,7 @@ export const BurgerMenu = () => {
               }
             >
               Blog
-            </Link>
+            </a>
           </li>
         </ul>
       </div>

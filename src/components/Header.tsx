@@ -16,6 +16,7 @@ export const Header = () => {
       <Link style={{ textDecoration: "none" }} to="/" className={style.logo}>
         <img src={logo} alt="logo" />
       </Link>
+      {/* <div>aaa</div> */}
       <BurgerMenu />
     </div>
   );
