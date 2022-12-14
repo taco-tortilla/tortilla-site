@@ -1,6 +1,4 @@
 .menu-btn {
-  /* position: fixed; */
-  /* top: 4.5%; */
   position: relative;
   top: 1.5rem;
   right: 2%;
@@ -110,17 +108,9 @@
   .menu-content {
     width: 50%;
   }
-  .menu-btn {
-    top: 2.5rem;
-    right: 1rem;
-  }
 }
 @media screen and (max-width: 520px) {
   .menu-content {
     width: 100%;
-  }
-  .menu-btn {
-    top: 1.2rem;
-    right: 1rem;
   }
 }
