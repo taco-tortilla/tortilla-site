@@ -68,7 +68,7 @@ export const BurgerMenu = () => {
               Gallery
             </Link>
           </li>
-          <li>
+          {/* <li>
             <a
               href="https://pyrite-pigeon-cd9.notion.site/Blog-1db21f5bd5c3433ebe2e92178a7aaf65"
               className="link"
@@ -80,7 +80,7 @@ export const BurgerMenu = () => {
             >
               Blog
             </a>
-          </li>
+          </li> */}
         </ul>
       </div>
     </div>

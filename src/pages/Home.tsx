@@ -102,7 +102,7 @@ export const Home = () => {
                 />
               </Link>
             </li>
-            <li>
+            {/* <li>
               <a
                 style={{ textDecoration: "none" }}
                 href="https://pyrite-pigeon-cd9.notion.site/Blog-1db21f5bd5c3433ebe2e92178a7aaf65"
@@ -127,7 +127,7 @@ export const Home = () => {
                   className={style.text}
                 />
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
         <div className={style.image_container}>
